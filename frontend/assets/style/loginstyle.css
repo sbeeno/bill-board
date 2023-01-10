@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin: 0; 
+    background-color: lightpink;
+}
+
+.login-form{
+
+}
+
+.text-field{
+    font-size: 15px;
+}
+
+.submit-stn{
+    font-size: 15px;
+}
+
+.links{
+
+}
+
+.links a{
+    font: size 12px;
+}
