@@ -8,15 +8,30 @@ body{
 }
 
 .login-form{
-
+    width: 300px;
+    border:0;
+    background-color:lavender;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-.text-field{
+.text-field {
     font-size: 15px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    padding : 10px;
 }
 
-.submit-stn{
-    font-size: 15px;
+.submit-btn {
+    color:aliceblue;
+    font-size:15px;
+    background-color:darksalmon;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius:5px;
+
 }
 
 .links{
@@ -25,4 +40,5 @@ body{
 
 .links a{
     font: size 12px;
+    color:darkorchid
 }

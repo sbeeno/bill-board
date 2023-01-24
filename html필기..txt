@@ -1,0 +1,19 @@
+<p> ; paragraph , 문단의 약자, 하나의 문단을 만들 때 쓰임
+
+html checked
+option value
+label for
+select
+:<select> 의 경우 자식태그로 <option>을 사용하는데 원하는 <option> 클릭->각 option에 value값을 넣어서
+해당 value 값을 뽑아내고 그 값만큼의 데이터를 전송해서 목록을 새로 뽑아내야함.
+
+radio
+<label for="gender-type-2" class="radio-label">Female</label>
+
+ <label class='checkbox-label' for='available'>
+                    <input id='available'
+                           name='available'
+                           type='checkbox'
+                           value='is-available'/>
+                    <span>I’m actually not a ROBOT</span>
+                </label>
