@@ -11,7 +11,7 @@ $ cd bill-board
 $ git pull
 ```
 
-## 개발 후 add -> commit -> push
+## 개발 후 add -> commit -> pushㅎ
 ```bash
 $ git add .
 $ git commit -m "커밋할 메세지"
