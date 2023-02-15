@@ -5,8 +5,11 @@
 
 
 body {
-    margin: 40px;
-    padding: 10%
+    margin: 20px;
+    padding: 15%;
+    display:flex;
+    text-align: left;
+    align-items: center;
 }
 
 body, table, div, p, span{font-family: 'Noto Sans KR';}
@@ -19,6 +22,7 @@ a{
 div{
     padding-top: 3px;
     padding-bottom: 8px;
+    margin:7px;
 }
 
 .btn{
@@ -32,6 +36,12 @@ div{
     border-radius: 6px;
 }
 
+.checkbox-label{
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
 .fullname input{
     width: 100%;
     margin : 20px;
@@ -43,7 +53,7 @@ div{
 }
 
 .legacy-form-row{
-    margin : 5px 10px; 
+    margin : 10px 10px; 
     background-color:aliceblue;
     height:20px; 
     border-radius:5px;

@@ -1,14 +1,25 @@
-p {
-color: blue;
+.backgroundimage{
+    background-image:url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MjBfODEg%2FMDAxNjYwOTI4Mjg5MDk3.bZ1rCUsCYXcBHU98Mi3pbXEtpBHaDq-VNqL_w7zcJZgg.UmbjsEaZcDj5kAUo-AxGJeom-vgVh16oXjS5ejScShgg.JPEG.toystory1994%2FIMG_6108.jpg&type=a340");
+    background-size: 150px 150px;
 }
 
-.apple{
-    color:red;
-}
-
-#banana{
-    color:yellow;
-}
 body{
-    background-color :indianred;
+    background-color:pink;
+}
+head{
+    font-size: x-large;
+}
+
+.box h1{
+    color:lightcoral;
+    text-align:center;
+    background-color:thistle;
+    border-bottom: 10px solid orchid;
+    width:110px;
+    font-size:100px;
+    border-radius: 20px;
+    margin:80px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }

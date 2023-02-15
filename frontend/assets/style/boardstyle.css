@@ -1,0 +1,19 @@
+<style>
+
+head{
+    margin: 15;
+    background-color: lightpink;
+}
+
+.board_list{
+    margin:20px;
+    border-collapse:seperate;
+    font-size:50px;
+    color:aliceblue;
+}
+
+tr{
+    width:100px;
+    text-align:center;
+    padding:10px;
+}

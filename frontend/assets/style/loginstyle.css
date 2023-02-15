@@ -3,21 +3,24 @@
 }
 
 body{
-    margin: 0; 
+    margin: 10; 
     background-color: lightpink;
 }
 
 .login-form{
-    width: 300px;
-    border:0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     background-color:lavender;
-    padding: 20px;
-    margin: 0 auto;
+    padding : 50px;
+    margin: 200 auto;
+    width: 300 ;
+    border-radius: 10%
 }
 
 .text-field {
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border:none;
     border-radius: 5px;
     padding : 10px;
@@ -28,7 +31,7 @@ body{
     font-size:15px;
     background-color:darksalmon;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 8px;
     border: none;
     border-radius:5px;
 
