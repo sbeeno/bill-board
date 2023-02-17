@@ -10,10 +10,14 @@
             <h1 style = "font-size: 90px; color:cornflowerblue"> Sign up For, </h1>
             <p style = "font-size : 30px; color:lightskyblue"> New Account!</p>
         </header>
-        <form class ='form-row'>
+        <div class ='form-row'>
             <div>
                 <label for='fullname'> <label style = "font-size: 20px; color:cornflowerblue"> Name </label> 
                 <input id='fullname' name='fullname' type="text" />
+            </div>
+            <div>
+                <label for='password'> <label style = "font-size: 20px; color:cornflowerblue"> Password </label> 
+                <input id='password' name='password' type="text" />
             </div>
             <div> 
                 <label for="email"> <label style = "font-size: 20px; color:cornflowerblue"> Email </label>
@@ -72,8 +76,21 @@
                 </label>
             </div>
             <div>
-                <button>Sign Up</button>
+                <button onclick="signup()">Sign Up</button>
             </div>
-        </form>
+        </div>
+    <script>
+        function signup(){
+            const user = window.localStorage.getItem('user');
+            let mydata = JSON.parse(user);
+            var new_data = new Object();
+            new_data.name = '';
+            new_data.password = '';
+            new_data.email = '';
+            new_data.sex = document.querySelector("input[name='gender-type']:checked").value;
+            mydata.push(new_data);
+            window.localStorage.setItem('user',JSON.stringify(mydata));
+        }
+    </script>
     </body>
 </html>

@@ -5,6 +5,11 @@
         <link rel = "stylesheet" href="../assets/style/boardstyle.css">
     </head>
     <body>
+        <script>
+            const board = window.localStorage.getItem('board');
+            let mydata = JSON.parse(board);
+            
+        </script>
         <h1>board list </h1>
         <div class = "board_list_wrap">
             <table class="board_list">
